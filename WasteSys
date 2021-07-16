@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2021-07-16T03:46:52.593Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" version="14.1.8" etag="Jrg3Euq8ONwRXxBD0W8i" type="github"><diagram id="CQAaC1TFwE89ye1wy88I">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-16T06:13:22.106Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" etag="pQyaqe-_MsHmoO0DB069" version="14.1.8" type="github">
+  <diagram id="CQAaC1TFwE89ye1wy88I" name="Page-1">
+    <mxGraphModel dx="1186" dy="812" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="H8pudzt-mxcSG7AjDMhn-1" value="City" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="60" y="100" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="H8pudzt-mxcSG7AjDMhn-2" value="+Attribute1&#xa;+Attribute2&#xa;+Attribute3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="H8pudzt-mxcSG7AjDMhn-1">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="H8pudzt-mxcSG7AjDMhn-3" value="User" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="440" y="100" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="H8pudzt-mxcSG7AjDMhn-4" value="+Email&#xa;+Org&#xa;+Attribute3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="H8pudzt-mxcSG7AjDMhn-3">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="H8pudzt-mxcSG7AjDMhn-5" value="Hauler" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="240" y="100" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="H8pudzt-mxcSG7AjDMhn-6" value="+Attribute1&#xa;+Attribute2&#xa;+Attribute3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="H8pudzt-mxcSG7AjDMhn-5">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="H8pudzt-mxcSG7AjDMhn-7" value="Generator" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="400" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="H8pudzt-mxcSG7AjDMhn-8" value="+Type (commercial/multi-family)&#xa;+service management type (waste hauler, self-haul, back-haul,)&#xa;+service levels of each material type&#xa;+waiver status (landscaper details, De Minimus and Physical Space)&#xa;+issuance information&#xa;+annual inspection status&#xa;+edible food generator tier&#xa;+compliance status" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="H8pudzt-mxcSG7AjDMhn-7">
+          <mxGeometry y="30" width="400" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="H8pudzt-mxcSG7AjDMhn-9" value="Notes" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="610" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="H8pudzt-mxcSG7AjDMhn-10" value="+ Note&#xa;+ Data" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="H8pudzt-mxcSG7AjDMhn-9">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="H8pudzt-mxcSG7AjDMhn-11" value="Scheduled Visits" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="240" y="610" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="H8pudzt-mxcSG7AjDMhn-12" value="+ Data&#xa;+ responsible staff person" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="H8pudzt-mxcSG7AjDMhn-11">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="H8pudzt-mxcSG7AjDMhn-13" value="Out reach" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="430" y="610" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="H8pudzt-mxcSG7AjDMhn-14" value="+ Type (emails, phone calls, direct mailings, site visit)&#xa;+ Photos" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="H8pudzt-mxcSG7AjDMhn-13">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="H8pudzt-mxcSG7AjDMhn-15" value="Customer Account" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="640" y="100" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="H8pudzt-mxcSG7AjDMhn-16" value="+Type (commercial/multi-family)&#xa;+Attribute2&#xa;+Attribute3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="H8pudzt-mxcSG7AjDMhn-15">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
